@@ -2,6 +2,10 @@ import React from 'react';
 import img6 from '../../../assets/image/duplicatas.png';
 import img7 from '../../../assets/image/baixaManual.png';
 import img8 from '../../../assets/image/geraDupli.png';
+import img9 from '../../../assets/image/dupliViaConfig.png';
+import img10 from '../../../assets/image/alterDupli.png';
+import img11 from '../../../assets/image/cancelDupli.png';
+
 
 function Duplicatas() {
   return (
@@ -66,6 +70,35 @@ function Duplicatas() {
         <strong> LEMBRANDO QUE NÃO É RECOMENDADO ALTERAR A DUPLICATA, SI FOR NECESSARIO
           CRIE OUTRA.</strong>
       </p>
+	  <p><strong>Geração de Duplicatas via configuração:</strong> aqui podemos gerar varias duplicatas para varios aulos (turmas inteira)
+	  ao inves de gerar por meios convencionais na hora da matricula que voce pode aprender a como fazer isso <a href='#'>clicando aqui.</a>
+	  voce pode ver como é essa tela abaixo</p>
+	  <figure>
+	  <img src={img9} />
+	  <figcaption>Nesta tela conseguimos escolher o ano de referencia no qual queremos gerar o financeiro do aluno, quando necessario fazer varios
+	  financeiros geramos via configuração. 'fazer analise para saber si é possivel fazer rematricula usando está tela'</figcaption>
+	  </figure>
+      <p><strong>Agregação de duplicata:</strong> Aqui podemos agregar as duplicatas</p>
+	  <p><strong>Alteração de duplicata</strong> Na tela a seguir podemos alterar as duplicatas antes de gerar o arquivo remessa:</p>
+	  <figure>
+		<img src={img10} />
+		<p>Aqui temos algumas opções clicamos em adicionar, abrira a tela de pesquisa,para poder colocar a duplicata, logo abaixo podemos ver
+		na aba de opção '=>' geral, podemos modificar a duplicata.</p>
+	  </figure>
+	  <p><strong>Cancelamento de duplicata:</strong> A melhor opção ao inves de excluir a duplicata, é o cancelamento porque caso seja nescessario
+	  é possivel rastrear o responsavel caso aja algum problema no pagameto, como por exemplo pagamento errado, duplicao e etc..</p>
+	  <figure>
+		<img src={img11} />
+		<figcaption>Caso seja necessario é possovel habilitar as duplicatas canceladas.</figcaption>
+	  </figure>
+	  <p><strong>Exclusão de duplicatas: </strong>Não é recomendado excluir de fato a duplicata porque caso no retorno da remessa venha um problema entre as duplicatas não conseguirei
+	  identificar o responsavel '=>' perdendo ainda o historico.</p>
+	  <p><strong>Devolução de duplicatas</strong> Aqui podemos fazer o fluxo de devolução (confirmar pra ver si é a mesma coisa, mas é bem capaz que não)</p>
+	  <p><strong></strong></p>
+	  <p><strong></strong></p>
+	  <p><strong>Finalidade de duplicata:</strong> A finalidade da duplicata nada mais é do que uma referencia para apontar sobre o que é aquela duplicata
+	  , si ela é uma matricula uma mensalidade ou poder ser material didatico, segue a imagem abaixo do que ela é, inclusive ela faz parte do fluxo
+	  das contas contabeis que foi explicado em <a href='/gestaofinaceira/contascontabeis'>Contas Contabeis</a></p>
     </div>
   );
 }
