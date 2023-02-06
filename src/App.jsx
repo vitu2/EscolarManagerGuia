@@ -1,27 +1,28 @@
-import React from 'react'
-import './App.css'
+import React, { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavMenu from './components/NavMenu/NavMenu.jsx';
+import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
+import ContasContabeis from './components/gestão financeira/ContasContabeis/ContasContabeis.jsx';
+import Duplicatas from './components/gestão financeira/Duplicatas/Duplicatas.jsx';
+import Finalidade from './components/gestão financeira/Finalidade/Finalidade.jsx'
+import './App.css';
 
 function App() {
+
   return (
     <div>
-      <header>
-        <nav className='nav-container'>
-          <ul className='nav-menu'>
-            <li><a href="#">Gestão academica</a></li>
-            <li><a href="#">Gestão Financeira</a></li>
-            <li><a href="#">Acesso e Frequencia</a></li>
-            <li><a href="#">Estoque</a></li>
-            <li><a href="#">Nutre</a></li>
-            <li><a href="#">Simulado</a></li>
-            <li><a href="#">Publicações</a></li>
-            <li><a href="#">Portal Professor</a></li>
-            <li><a href="#">Logins</a></li>
-            <li><a href="#">Outros</a></li>
-          </ul>
-        </nav>
-      </header>
+      <NavMenu/>
+      <BrowserRouter>
+        <Routes>
+          {/* <Route exact path="/"/> */}
+          <Route exact path="/gestaofinaceira" element={<FinanceiroMain />}/>
+          <Route exact path="/gestaofinaceira/contascontabeis" element={<ContasContabeis />}/>
+          <Route exact path="/gestaofinaceira/duplicatas" element={<Duplicatas />}/>
+          <Route exact path="/gestaofinaceira/finalidade" element={<Finalidade />}/>
+        </Routes>
+      </BrowserRouter>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
