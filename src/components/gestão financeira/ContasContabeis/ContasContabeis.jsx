@@ -1,9 +1,9 @@
 import React from 'react';
-import img1 from '../../../assets/image/cadastroBanco.PNG';
-import img2 from '../../../assets/image/infoBancarias.PNG';
-import img3 from '../../../assets/image/gcGeral.PNG';
-import img4 from '../../../assets/image/cc.PNG';
-import img5 from '../../../assets/image/NewCC.PNG';
+import img1 from '../../../assets/image/cadastroBanco.png';
+import img2 from '../../../assets/image/infoBancarias.png';
+import img3 from '../../../assets/image/gcGeral.png';
+import img4 from '../../../assets/image/cc.png';
+import img5 from '../../../assets/image/NewCC.png';
 
 function ContasContabeis() {
   return (
