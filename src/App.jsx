@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavMenu from './components/NavMenu/NavMenu.jsx';
 import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
@@ -7,22 +7,18 @@ import Duplicatas from './components/gestão financeira/Duplicatas/Duplicatas.js
 import Finalidade from './components/gestão financeira/Finalidade/Finalidade.jsx'
 import './App.css';
 
-function App() {
+const App = () => (
 
-  return (
-    <div>
-      <NavMenu/>
-      <BrowserRouter>
-        <Routes>
-          {/* <Route exact path="/"/> */}
-          <Route exact path="/gestaofinaceira" element={<FinanceiroMain />}/>
-          <Route exact path="/gestaofinaceira/contascontabeis" element={<ContasContabeis />}/>
-          <Route exact path="/gestaofinaceira/duplicatas" element={<Duplicatas />}/>
-          <Route exact path="/gestaofinaceira/finalidade" element={<Finalidade />}/>
-        </Routes>
-      </BrowserRouter>
-    </div>
-  );
-}
-
+  <div>
+    <NavMenu />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/gestaofinanceira" element={<FinanceiroMain />} />
+        <Route path="/gestaofinanceira/contascontabeis" element={<ContasContabeis />} />
+        <Route path="/gestaofinanceira/duplicatas" element={<Duplicatas />} />
+        <Route path="/gestaofinanceira/finalidade" element={<Finalidade />} />
+      </Routes>
+    </BrowserRouter>
+  </div>
+);
 export default App;

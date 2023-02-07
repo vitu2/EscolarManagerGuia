@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import cadastroBanco from '../../../assets/image/cadastroBanco.png';
 // import infoBancaria from '../../../assets/image/infoBancarias.png';
 // import gcGeral from '../../../assets/image/gcGeral.png';
@@ -94,7 +95,7 @@ function ContasContabeis() {
         para aprender mais.
       </p>
 
-      <a href="/gestaofinaceira/duplicatas">Duplicatas</a>
+      <Link to="/gestaofinanceira/duplicatas">Duplicatas</Link>
     </div>
   );
 }

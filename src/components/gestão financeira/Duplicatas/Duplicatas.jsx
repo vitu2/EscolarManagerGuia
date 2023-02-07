@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // import img6 from '../../../assets/image/duplicatas.png';
 // import img7 from '../../../assets/image/baixaManual.png';
 // import img8 from '../../../assets/image/geraDupli.png';
@@ -55,7 +56,7 @@ function Duplicatas() {
         Nesta tela conseguimos gerar a duplicatas referente a matricula e a
         mensalidade, caso não seja necessario, selecione a finalidade referente
         a ao que atenter as suas necessidades para saber mais,sobre o que é uma
-        finalidade <a href="/gestaofinaceira/finalidade">clique aqui</a>
+        finalidade <Link to="/gestaofinanceira/finalidade">clique aqui</Link>
       </p>
       <p>
         <strong>Configuração de Duplicatas: </strong>na configuração podemos
@@ -79,7 +80,7 @@ function Duplicatas() {
         <strong>Geração de Duplicatas via configuração:</strong> aqui podemos
         gerar varias duplicatas para varios aulos (turmas inteira) ao inves de
         gerar por meios convencionais na hora da matricula que voce pode
-        aprender a como fazer isso <a href="#">clicando aqui.</a>
+        aprender a como fazer isso <Link to="#">clicando aqui.</Link>
         voce pode ver como é essa tela abaixo
       </p>
       <figure>
@@ -141,7 +142,7 @@ function Duplicatas() {
         mais é do que uma referencia para apontar sobre o que é aquela duplicata
         , si ela é uma matricula uma mensalidade ou poder ser material didatico,
         segue a imagem abaixo do que ela é, inclusive ela faz parte do fluxo das
-        contas contabeis que foi explicado em <a href="/gestaofinaceira/contascontabeis">Contas Contabeis</a>
+        contas contabeis que foi explicado em <Link to="/gestaofinanceira/contascontabeis">Contas Contabeis</Link>
       </p>
     </div>
   );
