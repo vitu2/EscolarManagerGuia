@@ -14,19 +14,19 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: 'gestaofinanceira',
+        path: '/gestaofinanceira',
         element: <FinanceiroMain />,
       },
       {
-        path: 'gestaofinanceira/contascontabeis',
+        path: '/gestaofinanceira/contascontabeis',
         element: <ContasContabeis />,
       },
       {
-        path: 'gestaofinanceira/duplicatas',
+        path: '/gestaofinanceira/duplicatas',
         element: <Duplicatas />,
       },
       {
-        path: 'gestaofinanceira/finalidade',
+        path: '/gestaofinanceira/finalidade',
         element: <Finalidade />,
       },
     ],
