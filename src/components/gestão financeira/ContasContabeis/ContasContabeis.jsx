@@ -1,5 +1,5 @@
 import React from 'react';
-import img1 from '../../../assets/image/cadastroBanco.png';
+import img1 from '../../../assets/image/cadastroBanco.png'
 import img2 from '../../../assets/image/infoBancarias.png';
 import img3 from '../../../assets/image/gcGeral.png';
 import img4 from '../../../assets/image/cc.png';
