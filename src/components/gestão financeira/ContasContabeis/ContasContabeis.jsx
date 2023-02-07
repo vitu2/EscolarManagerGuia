@@ -95,7 +95,7 @@ function ContasContabeis() {
         para aprender mais.
       </p>
 
-      <Link to="/gestaofinanceira/duplicatas">Duplicatas</Link>
+      <a href={"/gestaofinanceira/duplicatas"}>Duplicatas</a>
     </div>
   );
 }

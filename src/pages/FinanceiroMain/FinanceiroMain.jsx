@@ -6,9 +6,9 @@ function FinanceiroMain() {
   return (
     <div>
       <figure className='links-container'>
-        <Link className='box-container' to="/gestaofinanceira/contascontabeis">Contas Contabeis</Link>
-        <Link className='box-container' to="/gestaofinanceira/duplicatas">Duplicatas</Link>
-        <Link className='box-container' to="/gestaofinanceira/finalidade">Finalidade</Link>
+        <a className='box-container' href={"/gestaofinanceira/contascontabeis"}>Contas Contabeis</a>
+        <a className='box-container' href={"/gestaofinanceira/duplicatas"}>Duplicatas</a>
+        <a className='box-container' href={"/gestaofinanceira/finalidade"}>Finalidade</a>
       </figure>
     </div>
   )

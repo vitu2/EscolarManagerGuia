@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './NavMenu.css';
+import { Link } from 'react-router-dom';
 
 const NavMenu = () => {
   return (
@@ -8,35 +8,35 @@ const NavMenu = () => {
       <nav className="nav-container">
         <ul className="nav-menu">
           <li>
-            <Link to="/gestaoacademica">Gestão acadêmica</Link>
+            <a to={"/gestaoacademica"}>Gestão acadêmica</a>
           </li>
           <li>
-            <Link to="/gestaofinanceira">Gestão Financeira</Link>
+            <a href={"/gestaofinanceira"}>Gestão Financeira</a>
+          </li>
+          {/* <li>
+            <a href={"/acessofrequencia"}>Acesso e Frequência</a>
           </li>
           <li>
-            <Link to="/acessofrequencia">Acesso e Frequência</Link>
+            <a href={"/estoque"}>Estoque</a>
           </li>
           <li>
-            <Link to="/estoque">Estoque</Link>
+            <a href={"/nutre"}>Nutre</a>
           </li>
           <li>
-            <Link to="/nutre">Nutre</Link>
+            <a href={"/simulado"}>Simulado</a>
           </li>
           <li>
-            <Link to="/simulado">Simulado</Link>
+            <a href={"/publicacao"}>Publicações</a>
           </li>
           <li>
-            <Link to="/publicacao">Publicações</Link>
+            <a href={"/portalprofessor"}>Portal Professor</a>
           </li>
           <li>
-            <Link to="/portalprofessor">Portal Professor</Link>
+            <a href={"/logins"}>Logins</a>
           </li>
           <li>
-            <Link to="/logins">Logins</Link>
-          </li>
-          <li>
-            <Link to="/outros">Outros</Link>
-          </li>
+            <a href={"/outros"}>Outros</a>
+          </li> */}
         </ul>
       </nav>
     </header>
