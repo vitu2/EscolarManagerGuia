@@ -13,10 +13,11 @@ const App = () => (
     <NavMenu />
     <BrowserRouter>
       <Routes>
-        <Route path="/gestaofinanceira" element={<FinanceiroMain />} />
-        <Route path="/gestaofinanceira/contascontabeis" element={<ContasContabeis />} />
-        <Route path="/gestaofinanceira/duplicatas" element={<Duplicatas />} />
-        <Route path="/gestaofinanceira/finalidade" element={<Finalidade />} />
+        <Route path="/" element={'home'} />
+        <Route path="gestaofinanceira" element={<FinanceiroMain />} />
+        <Route path="gestaofinanceira/contascontabeis" element={<ContasContabeis />} />
+        <Route path="gestaofinanceira/duplicatas" element={<Duplicatas />} />
+        <Route path="gestaofinanceira/finalidade" element={<Finalidade />} />
       </Routes>
     </BrowserRouter>
   </div>
