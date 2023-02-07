@@ -7,11 +7,11 @@ const NavMenu = () => {
     <header className="nav-header">
       <nav className="nav-container">
         <ul className="nav-menu">
+          {/* <li>
+            <Link to="/gestaoacademica">Gestão acadêmica</Link>
+          </li> */}
           <li>
-            <a to={"/gestaoacademica"}>Gestão acadêmica</a>
-          </li>
-          <li>
-            <a href={"/gestaofinanceira"}>Gestão Financeira</a>
+            <Link to="/gestaofinanceira">Gestão Financeira</Link>
           </li>
           {/* <li>
             <a href={"/acessofrequencia"}>Acesso e Frequência</a>
