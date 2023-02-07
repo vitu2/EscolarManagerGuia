@@ -1,6 +1,5 @@
 import React from 'react';
 import './NavMenu.css';
-import { Link } from 'react-router-dom';
 
 function NavMenu(props) {
   return (
