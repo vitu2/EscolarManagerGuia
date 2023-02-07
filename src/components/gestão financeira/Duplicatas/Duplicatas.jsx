@@ -83,7 +83,7 @@ function Duplicatas() {
 	  <figure>
 		<img src={img10} />
 		<p>Aqui temos algumas opções clicamos em adicionar, abrira a tela de pesquisa,para poder colocar a duplicata, logo abaixo podemos ver
-		na aba de opção '=>' geral, podemos modificar a duplicata.</p>
+		na aba de opção geral podemos modificar a duplicata.</p>
 	  </figure>
 	  <p><strong>Cancelamento de duplicata:</strong> A melhor opção ao inves de excluir a duplicata, é o cancelamento porque caso seja nescessario
 	  é possivel rastrear o responsavel caso aja algum problema no pagameto, como por exemplo pagamento errado, duplicao e etc..</p>
@@ -92,7 +92,7 @@ function Duplicatas() {
 		<figcaption>Caso seja necessario é possovel habilitar as duplicatas canceladas.</figcaption>
 	  </figure>
 	  <p><strong>Exclusão de duplicatas: </strong>Não é recomendado excluir de fato a duplicata porque caso no retorno da remessa venha um problema entre as duplicatas não conseguirei
-	  identificar o responsavel '=>' perdendo ainda o historico.</p>
+	  identificar o responsavel, perdendo ainda o historico.</p>
 	  <p><strong>Devolução de duplicatas</strong> Aqui podemos fazer o fluxo de devolução (confirmar pra ver si é a mesma coisa, mas é bem capaz que não)</p>
 	  <p><strong></strong></p>
 	  <p><strong></strong></p>
