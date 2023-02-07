@@ -1,6 +1,6 @@
 import React from 'react'
 // import img12 from '../../../assets/image/finalidade.png'
-import img13 from '../../../assets/image/finalidadeCadas.png'
+// import img13 from '../../../assets/image/finalidadeCadas.png'
 
 function Finalidade() {
   return (
@@ -12,9 +12,9 @@ function Finalidade() {
 		<img src={img12} />
 	  </figure> */}
 	  <p><strong>Criar uma nova finalidade</strong> para podermos criar uma nova finalidade clicar em novo e sera a aberto a seguinte tela</p>
-	  	  <figure>
+	  	  {/* <figure>
 		<img src={img13} />
-	  </figure>
+	  </figure> */}
 	  <p>Aqui ja podemos cadastrar uma nova finalidade e assim podemos fazer o fluxo para a geração do financeiro do aluno.</p>
     </div>
   )
