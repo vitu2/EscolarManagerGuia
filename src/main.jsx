@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
-import ContasContabeis from './components/gestão financeira/ContasContabeis/ContasContabeis.jsx';
-import Duplicatas from './components/gestão financeira/Duplicatas/Duplicatas.jsx';
-import Finalidade from './components/gestão financeira/Finalidade/Finalidade.jsx';
-import AlunoMatri from './components/gestão academica/Aluno e matricula/AlunoMatri.jsx';
+import ContasContabeis from './components/gestãoFinanceira/ContasContabeis/ContasContabeis.jsx';
+import Duplicatas from './components/gestãoFinanceira/Duplicatas/Duplicatas.jsx';
+import Finalidade from './components/gestãoFinanceira/Finalidade/Finalidade.jsx';
+import AlunoMatri from './components/gestãoAcademica/Aluno e matricula/AlunoMatri.jsx';
 
 const router = createBrowserRouter([
   {
