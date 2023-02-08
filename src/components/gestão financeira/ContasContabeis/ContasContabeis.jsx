@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import cadastroBanco from '../../../assets/image/cadastroBanco.png';
-// import infoBancaria from '../../../assets/image/infoBancarias.png';
-// import gcGeral from '../../../assets/image/gcGeral.png';
 // import cc from '../../../assets/image/cc.png';
 // import NewCC from '../../../assets/image/NewCC.png';
 
@@ -17,7 +14,7 @@ function ContasContabeis() {
         de exemplo:
       </p>
       <figure>
-        {/* <img src={cadastroBanco} /> */}
+         <img src='../../../assets/image/cadastroBanco.PNG' />
       </figure>
 
       <p>
@@ -25,7 +22,7 @@ function ContasContabeis() {
         imagen de exemplo:
       </p>
       <figure>
-        {/* <img src={infoBancaria} /> */}
+        <img src='../../../assets/image/infoBancarias.PNG' />
         <figcaption>
           Nesta tela informaremos os dados bancarios do cliente (será feito pela
           implantação mas eventualmente faremos suporte)
@@ -43,7 +40,7 @@ function ContasContabeis() {
         abriremos a seguinte tela:
       </p>
       <figure>
-        {/* <img src={gcGeral} /> */}
+        <img src='../../../assets/image/gcGeral.PNG' />
         <figcaption>
           Nesta tela fazemos o cadastro de grupos, quando clicamos em novo grupo
           pai, criamos uma conta contabil que sera usada em no novo grupo,
@@ -67,11 +64,11 @@ function ContasContabeis() {
         terão ou serão necessario para o controle.
       </p>
       <figure>
-        {/* <img src={cc} /> */}
+         <img src='../../../assets/image/cc.PNG' />
       </figure>
 
       <figure>
-        {/* <img src={NewCC} /> */}
+      <img src='../../../assets/image/NewCC.PNG.PNG' />
         <figcaption>
           Nesta tela posso escolher o grupo que foi criado mais acima no
           cadastro de grupos de conta contabil depois de adicionarmos o grupo
@@ -86,7 +83,7 @@ function ContasContabeis() {
           esta diferente dessa tela, não mostra o nome na versão web.
         </strong>
       </p>
-      {/* <img src={cc} /> */}
+      <img src='../../../assets/image/cc.PNG' />
       <p>
         Como vemos na imagem acima, na descrição da conta na pratica não devia
         estar o nome do banco, porque na coluna a frente está me falando em qual
