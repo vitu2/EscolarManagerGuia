@@ -1,9 +1,7 @@
 import React from 'react';
-// import img12 from '../../../assets/image/finalidade.png';
-// import img13 from '../../../assets/image/finalidadeCadas.png
-// import img14 from '../../../assets/image/cadasGesta.png';
-// import img15 from '../../../assets/image/telaMatriAluno.png';
-// import img16 from '../../../assets/image/telaMatriFim.png';
+ import img14 from '../../../assets/image/cadasGesta.png';
+ import img15 from '../../../assets/image/telaMatriAluno.png';
+ import img16 from '../../../assets/image/telaMatriFim.png';
 
 function AlunoMatri() {
   return (

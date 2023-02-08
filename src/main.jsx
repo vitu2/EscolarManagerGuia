@@ -7,12 +7,17 @@ import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
 import ContasContabeis from './components/gestão financeira/ContasContabeis/ContasContabeis.jsx';
 import Duplicatas from './components/gestão financeira/Duplicatas/Duplicatas.jsx';
 import Finalidade from './components/gestão financeira/Finalidade/Finalidade.jsx';
+import AlunoMatri from './components/gestão academica/Aluno e matricula/AlunoMatri.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     children: [
+      {
+        path: 'gestaoacademica',
+        element: <AlunoMatri />,
+      },
       {
         path: 'gestaofinanceira',
         element: <FinanceiroMain />,

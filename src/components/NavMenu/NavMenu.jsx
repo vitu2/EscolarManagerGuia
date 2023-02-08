@@ -7,36 +7,36 @@ const NavMenu = () => {
     <header className="nav-header">
       <nav className="nav-container">
         <ul className="nav-menu">
-          {/* <li>
+          <li>
             <Link to="/gestaoacademica">Gestão acadêmica</Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/gestaofinanceira">Gestão Financeira</Link>
           </li>
-          {/* <li>
-            <a href={"/acessofrequencia"}>Acesso e Frequência</a>
+           <li>
+            <Link to="/acessofrequencia">Acesso e Frequência</Link>
           </li>
           <li>
-            <a href={"/estoque"}>Estoque</a>
+            <Link to="/estoque">Estoque</Link>
           </li>
           <li>
-            <a href={"/nutre"}>Nutre</a>
+            <Link to="/nutre">Nutre</Link>
           </li>
           <li>
-            <a href={"/simulado"}>Simulado</a>
+            <Link to="/simulado">Simulado</Link>
           </li>
           <li>
-            <a href={"/publicacao"}>Publicações</a>
+            <Link to="/publicacao">Publicações</Link>
           </li>
           <li>
-            <a href={"/portalprofessor"}>Portal Professor</a>
+            <Link to="/portalprofessor">Portal Professor</Link>
           </li>
           <li>
-            <a href={"/logins"}>Logins</a>
+            <Link to="/logins">Logins</Link>
           </li>
           <li>
-            <a href={"/outros"}>Outros</a>
-          </li> */}
+            <Link to="/outros">Outros</Link>
+          </li>
         </ul>
       </nav>
     </header>
