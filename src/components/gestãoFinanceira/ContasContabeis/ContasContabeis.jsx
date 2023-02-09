@@ -13,10 +13,9 @@ function ContasContabeis() {
         Primeiramente devemos criar um banco (cadastrar um banco) segue a imagem
         de exemplo:
       </p>
-      <figure>
-         <img src='../../../assets/image/cadastroBanco.PNG' />
-      </figure>
 
+         <img src='../../../assets/image/cadastroBanco.PNG' />
+         
       <p>
         Devemos clicar em novo, abrira uma tela de cadastro de banco, segue a
         imagen de exemplo:
