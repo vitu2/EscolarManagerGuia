@@ -14,7 +14,7 @@ function ContasContabeis() {
         de exemplo:
       </p>
 
-         <img src='../../assets/image/cadastroBanco.PNG' />
+         <img src='./cadastroBanco.PNG' />
          
       <p>
         Devemos clicar em novo, abrira uma tela de cadastro de banco, segue a
