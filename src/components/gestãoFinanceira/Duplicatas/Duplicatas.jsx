@@ -1,11 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import img6 from '../../../assets/image/duplicatas.png';
-// import img7 from '../../../assets/image/baixaManual.png';
-// import img8 from '../../../assets/image/geraDupli.png';
-// import img9 from '../../../assets/image/dupliViaConfig.png';
-// import img10 from '../../../assets/image/alterDupli.png';
-// import img11 from '../../../assets/image/cancelDupli.png';
 
 function Duplicatas() {
   return (
@@ -18,7 +12,7 @@ function Duplicatas() {
         para manter o padrão do sistema) caminho para chegar as duplicatas são:
       </p>
       <figure>
-        {/* <img src={img6} /> */}
+         <img src='https://images2.imgbox.com/b6/47/7pFdmnuG_o.png' />
         <figcaption>
           Nesta tela vemos as opções que podemos acessar relacionadas as
           duplicatas, será mostrado alguns itens abaixo com respectivo link para
@@ -31,7 +25,7 @@ function Duplicatas() {
         suplicata de forma manual:
       </p>
       <figure>
-        {/* <img src={img7} /> */}
+         <img src='https://images2.imgbox.com/da/3b/V1VBmGk1_o.png' /> 
       </figure>
 
       <p>
@@ -50,7 +44,7 @@ function Duplicatas() {
         mensalidade a tela de geração de duplicata:
       </p>
       <figure>
-        {/* <img src={img8} /> */}
+        <img src='https://images2.imgbox.com/1e/c7/f1Av0GOb_o.png' />
       </figure>
       <p>
         Nesta tela conseguimos gerar a duplicatas referente a matricula e a
@@ -84,7 +78,7 @@ function Duplicatas() {
         voce pode ver como é essa tela abaixo
       </p>
       <figure>
-        {/* <img src={img9} /> */}
+        <img src='https://images2.imgbox.com/5a/fe/rB4zbjfb_o.png' />
         <figcaption>
           Nesta tela conseguimos escolher o ano de referencia no qual queremos
           gerar o financeiro do aluno, quando necessario fazer varios
@@ -101,7 +95,7 @@ function Duplicatas() {
         as duplicatas antes de gerar o arquivo remessa:
       </p>
       <figure>
-        {/* <img src={img10} /> */}
+        <img src='https://images2.imgbox.com/35/f1/CoLJVcJN_o.png' />
         <p>
           Aqui temos algumas opções clicamos em adicionar, abrira a tela de
           pesquisa,para poder colocar a duplicata, logo abaixo podemos ver na
@@ -112,10 +106,10 @@ function Duplicatas() {
         <strong>Cancelamento de duplicata:</strong> A melhor opção ao inves de
         excluir a duplicata, é o cancelamento porque caso seja nescessario é
         possivel rastrear o responsavel caso aja algum problema no pagameto,
-        como por exemplo pagamento errado, duplicao e etc..
+        como por exemplo pagamento errado, duplicado e etc..
       </p>
       <figure>
-        {/* <img src={img11} /> */}
+        <img src='https://images2.imgbox.com/d3/24/O7JRsfNl_o.png' />
         <figcaption>
           Caso seja necessario é possovel habilitar as duplicatas canceladas.
         </figcaption>

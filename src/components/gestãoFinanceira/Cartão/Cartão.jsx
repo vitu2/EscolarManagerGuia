@@ -9,7 +9,7 @@ function Cartão() {
             primeiramente ter uma conta contabil para fazer o recebimento e outra para as taxas referente a maquininha.</p>
 
             <figure>
-                <img src="../../../assets/image/CadCartao.PNG"/>
+                <img src="https://images2.imgbox.com/8f/8e/iKSENu69_o.png"/>
                 <figcaption></figcaption>
             </figure>
 

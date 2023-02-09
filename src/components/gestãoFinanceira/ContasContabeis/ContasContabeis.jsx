@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import cc from '../../../assets/image/cc.png';
-// import NewCC from '../../../assets/image/NewCC.png';
 
 function ContasContabeis() {
   return (
@@ -14,14 +12,14 @@ function ContasContabeis() {
         de exemplo:
       </p>
 
-         <img src='./cadastroBanco.PNG' />
+         <img src='https://images2.imgbox.com/e5/ef/igIvJOzp_o.png' />
          
       <p>
         Devemos clicar em novo, abrira uma tela de cadastro de banco, segue a
         imagen de exemplo:
       </p>
       <figure>
-        <img src='../../../assets/image/infoBancarias.PNG' />
+        <img src='https://images2.imgbox.com/a4/6e/igf4I31k_o.png' />
         <figcaption>
           Nesta tela informaremos os dados bancarios do cliente (será feito pela
           implantação mas eventualmente faremos suporte)
@@ -39,7 +37,7 @@ function ContasContabeis() {
         abriremos a seguinte tela:
       </p>
       <figure>
-        <img src='../../../assets/image/gcGeral.PNG' />
+        <img src='https://images2.imgbox.com/3f/d7/Cco5u3wc_o.png' />
         <figcaption>
           Nesta tela fazemos o cadastro de grupos, quando clicamos em novo grupo
           pai, criamos uma conta contabil que sera usada em no novo grupo,
@@ -63,11 +61,11 @@ function ContasContabeis() {
         terão ou serão necessario para o controle.
       </p>
       <figure>
-         <img src='../../../assets/image/cc.PNG' />
+         <img src='https://images2.imgbox.com/72/18/Q4DHn180_o.png' />
       </figure>
 
       <figure>
-      <img src='../../../assets/image/NewCC.PNG.PNG' />
+      <img src='https://images2.imgbox.com/44/35/WEFcChQs_o.png' />
         <figcaption>
           Nesta tela posso escolher o grupo que foi criado mais acima no
           cadastro de grupos de conta contabil depois de adicionarmos o grupo
@@ -82,7 +80,7 @@ function ContasContabeis() {
           esta diferente dessa tela, não mostra o nome na versão web.
         </strong>
       </p>
-      <img src='../../../assets/image/cc.PNG' />
+      <img src='https://images2.imgbox.com/72/18/Q4DHn180_o.png' />
       <p>
         Como vemos na imagem acima, na descrição da conta na pratica não devia
         estar o nome do banco, porque na coluna a frente está me falando em qual

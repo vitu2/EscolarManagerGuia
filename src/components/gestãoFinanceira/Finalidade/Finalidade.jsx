@@ -1,6 +1,4 @@
 import React from 'react';
-// import img12 from '../../../assets/image/finalidade.png';
-// import img13 from '../../../assets/image/finalidadeCadas.png';
 
 function Finalidade() {
   return (
@@ -12,14 +10,14 @@ function Finalidade() {
         matricula e mensalidade
       </p>
       <figure>
-        {/* <img src={img12} /> */}
+         <img src='https://images2.imgbox.com/74/65/PmvPZJsO_o.png' />
       </figure>
       <p>
         <strong>Criar uma nova finalidade</strong> para podermos criar uma nova
         finalidade clicar em novo e sera a aberto a seguinte tela
       </p>
       <figure>
-        {/* <img src={img13} /> */}
+        <img src='https://images2.imgbox.com/66/d3/9OPL0Eab_o.png' />
       </figure>
       <p>
         Aqui ja podemos cadastrar uma nova finalidade e assim podemos fazer o
