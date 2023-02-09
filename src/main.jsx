@@ -4,10 +4,12 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
 import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
+import AcademicoMain from './pages/AcademicoMain/AcademicoMain.jsx';
 import ContasContabeis from './components/gestãoFinanceira/ContasContabeis/ContasContabeis.jsx';
 import Duplicatas from './components/gestãoFinanceira/Duplicatas/Duplicatas.jsx';
 import Finalidade from './components/gestãoFinanceira/Finalidade/Finalidade.jsx';
 import AlunoMatri from './components/gestãoAcademica/AlunoMatricula/AlunoMatri.jsx';
+import AvNota from './components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +18,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: 'gestaoacademica',
-        element: <AlunoMatri />,
+        element: <AcademicoMain />,
+      },
+      {
+        path: 'gestaoacademica/alunomatri',
+        element: <AlunoMatri/>,
+      },
+      {
+        path: 'gestaoacademica/avboletim',
+        element: <AvNota/>,
       },
       {
         path: 'gestaofinanceira',
