@@ -7,7 +7,7 @@ import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
 import ContasContabeis from './components/gestãoFinanceira/ContasContabeis/ContasContabeis.jsx';
 import Duplicatas from './components/gestãoFinanceira/Duplicatas/Duplicatas.jsx';
 import Finalidade from './components/gestãoFinanceira/Finalidade/Finalidade.jsx';
-import AlunoMatri from './components/gestãoAcademica/Aluno e matricula/AlunoMatri.jsx';
+import AlunoMatri from './components/gestãoAcademica/AlunoMatricula/AlunoMatri.jsx';
 
 const router = createBrowserRouter([
   {
