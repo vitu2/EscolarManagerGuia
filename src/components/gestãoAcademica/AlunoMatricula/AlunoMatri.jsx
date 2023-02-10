@@ -27,7 +27,7 @@ function AlunoMatri() {
 			</figure>
 			<p>Aqui em matricula podemos observar varias outras opções aqui dentro, segue a imagen abaixo</p>
 			<figure>
-				<img src='../../../assets/image/MatOptions.png'/>
+				<img src='../../../assets/image temp/MatOption.png'/>
 				<figcaption>Muitas dessas opções são pouco usadas, e quando são é mais de resolver, algumas resalvas para as 
 					opções de Remanejamento de aluno, Montagem de Lista de alunos e Relatorios Parametrizados, que por sinal
 					é muito usado para emitir relatorios que já podem ser emitidos pelo proprio sistema, mas o cliente quer
