@@ -9,7 +9,9 @@ import ContasContabeis from './components/gestãoFinanceira/ContasContabeis/Cont
 import Duplicatas from './components/gestãoFinanceira/Duplicatas/Duplicatas.jsx';
 import Finalidade from './components/gestãoFinanceira/Finalidade/Finalidade.jsx';
 import AlunoMatri from './components/gestãoAcademica/AlunoMatricula/AlunoMatri.jsx';
-import AvNota from './components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx'
+import AvNota from './components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx';
+import Cartão from './components/gestãoFinanceira/Cartão/Cartão.jsx';
+import HistoricoCertificado from './components/gestãoAcademica/HistoricoCertificado/HistoricoCertificado';
 
 const router = createBrowserRouter([
   {
@@ -21,12 +23,16 @@ const router = createBrowserRouter([
         element: <AcademicoMain />,
       },
       {
+        path: '/gestaoacademica/histocert',
+        element: <HistoricoCertificado />,
+      },
+      {
         path: 'gestaoacademica/alunomatri',
-        element: <AlunoMatri/>,
+        element: <AlunoMatri />,
       },
       {
         path: 'gestaoacademica/avboletim',
-        element: <AvNota/>,
+        element: <AvNota />,
       },
       {
         path: 'gestaofinanceira',
@@ -43,6 +49,10 @@ const router = createBrowserRouter([
       {
         path: 'gestaofinanceira/finalidade',
         element: <Finalidade />,
+      },
+      {
+        path: 'gestaofinanceira/cartao',
+        element: <Cartão />,
       },
     ],
   },

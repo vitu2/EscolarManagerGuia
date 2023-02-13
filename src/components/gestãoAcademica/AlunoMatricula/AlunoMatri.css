@@ -1,0 +1,40 @@
+.section-aluno {
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 1.1em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.text-space-left{
+    margin-left: 8px;
+}
+
+.text-space-right{
+    margin-right: 8px;
+}
+
+.section-aluno .img-enlargable{
+    width: 60vw;
+}
+
+.section-cadastro{
+    background-color: red;
+    display: flex;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 1.1em;
+    justify-content: center;
+    align-items: center;
+    height: 100%;   
+}
+
+.section-cadastro .img-enlargable{
+    width: 60vw;
+}

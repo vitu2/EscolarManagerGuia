@@ -1,14 +1,15 @@
 .links-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
   
   .links-container a {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
     line-height: 80px;
-    width: 10vw;
+    width: 12vw;
     text-align: center;
     margin-top: 60px
   }

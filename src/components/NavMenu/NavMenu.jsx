@@ -13,7 +13,7 @@ const NavMenu = () => {
           <li>
             <Link to="/gestaofinanceira">Gestão Financeira</Link>
           </li>
-           <li>
+          <li>
             <Link to="/acessofrequencia">Acesso e Frequência</Link>
           </li>
           <li>
