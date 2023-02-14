@@ -37,7 +37,7 @@ function EnlargeImage({ src }) {
 
 function AlunoMatri() {
   return (
-    <div>
+    <div className='AlunoMatri-container'>
       <h1>Aluno e Matricula:Introdução</h1>
       <h2>Fluxo de Matricula Aluno</h2>
 
@@ -85,9 +85,12 @@ function AlunoMatri() {
         </p>
       </section>
 
-      <section>
+      <section className='section-img-mat'>
         <figure>
-          <img src="https://images2.imgbox.com/43/96/eH5PcKs5_o.png" />
+        <EnlargeImage
+            className="img-enlargable"
+            src="https://images2.imgbox.com/43/96/eH5PcKs5_o.png"
+          />
         </figure>
         <p>
           Aqui em matricula podemos observar varias outras opções aqui dentro,
@@ -95,19 +98,22 @@ function AlunoMatri() {
         </p>
       </section>
 
-      <section>
+      <section className='section-mat-final' >
+      <EnlargeImage
+            className="img-enlargable"
+            src="https://images2.imgbox.com/34/86/9tMr787m_o.png"
+          />
         <figure>
-          <img src="https://images2.imgbox.com/34/86/9tMr787m_o.png" />
-          <figcaption>
+          <img src="" />
+        </figure>
+          <p>
             Muitas dessas opções são pouco usadas, e quando são é mais de
             resolver, algumas resalvas para as opções de Remanejamento de aluno,
             Montagem de Lista de alunos e Relatorios Parametrizados, que por
             sinal é muito usado para emitir relatorios que já podem ser emitidos
             pelo proprio sistema, mas o cliente quer algo mais personalizado,
-            para saber mais sobre relatorio parametrizados, click
-            <Link to="#">Aqui</Link>
-          </figcaption>
-        </figure>
+            para saber mais sobre relatorio parametrizados, click <Link to="#">Aqui</Link>
+          </p>
       </section>
     </div>
   );
