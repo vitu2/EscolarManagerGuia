@@ -1,8 +1,30 @@
+.AlunoMatri-container{
+    background-color: whitesmoke;
+}
+
+section:nth-of-type(even) {
+    background-color: whitesmoke; /* cor branca */
+    padding: 30px;
+  }
+  
+  section:nth-of-type(odd) {
+    background-color: #023535;
+    color: white;
+    padding: 30px;
+  }
+
+  .title-container{
+    display: flex;
+    flex-direction: column;
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
 .section-aluno {
     display: flex;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-top: 3rem;
+    margin-top: 0.6rem;
     text-align: justify;
     font-size: 1.1em;
     justify-content: center;
@@ -19,15 +41,43 @@
 }
 
 .section-aluno .img-enlargable{
-    width: 60vw;
+    max-width: 60vw;
+}
+
+.section-img-mat .img-enlargable{
+    display: flex;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-img-mat p{
+    text-align: center;
+}
+
+.section-mat-final{
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 105px;
+}
+
+.section-mat-final p{
+    margin-left: -128px;
+    text-align: justify;
+    max-width: 30vw;
+    font-size: 1.1em;
+}
+
+.section-mat-final .img-enlargable{
+    max-width: 60vw;
+    clip-path: inset(0.5% 20% 8% 0.2% round 10px);
 }
 
 .section-cadastro{
-    background-color: red;
     display: flex;
     margin-left: 6rem;
     margin-right: 6rem;
-    margin-top: 3rem;
     text-align: justify;
     font-size: 1.1em;
     justify-content: center;
@@ -36,5 +86,5 @@
 }
 
 .section-cadastro .img-enlargable{
-    width: 60vw;
+    max-width: 60vw;
 }
