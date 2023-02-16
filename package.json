@@ -9,14 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.2.3",
+    "framer-motion": "^9.0.3",
     "react": "^18.2.0",
+    "react-aos": "^1.0.1",
     "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-image": "^4.0.3",
     "react-image-lightbox": "^5.1.4",
     "react-lazy": "^1.1.0",
     "react-lightbox-component": "^1.2.1",
+    "react-reveal": "^1.2.2",
     "react-router": "^6.8.1",
     "react-router-dom": "^6.8.1",
     "react-suspense": "^0.1.0"

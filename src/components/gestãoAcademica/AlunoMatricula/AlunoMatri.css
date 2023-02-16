@@ -2,11 +2,29 @@
     background-color: whitesmoke;
 }
 
+section:nth-of-type(even) {
+    background-color: whitesmoke; /* cor branca */
+    padding: 30px;
+  }
+  
+  section:nth-of-type(odd) {
+    background-color: #023535;
+    color: white;
+    padding: 30px;
+  }
+
+  .title-container{
+    display: flex;
+    flex-direction: column;
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
 .section-aluno {
     display: flex;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-top: 3rem;
+    margin-top: 0.6rem;
     text-align: justify;
     font-size: 1.1em;
     justify-content: center;
@@ -31,12 +49,10 @@
     max-width: 60vw;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2rem;
 }
 
 .section-img-mat p{
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 .section-mat-final{
@@ -62,7 +78,6 @@
     display: flex;
     margin-left: 6rem;
     margin-right: 6rem;
-    margin-top: 3rem;
     text-align: justify;
     font-size: 1.1em;
     justify-content: center;
