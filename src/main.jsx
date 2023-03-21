@@ -12,7 +12,9 @@ import AlunoMatri from './components/gestãoAcademica/AlunoMatricula/AlunoMatri.
 import AvNota from './components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx';
 import Cartão from './components/gestãoFinanceira/Cartão/Cartão.jsx';
 import HistoricoCertificado from './components/gestãoAcademica/HistoricoCertificado/HistoricoCertificado';
-import Renego from './components/gestãoFinanceira/Renegociação/Renegociação'
+import Temp from './components/acessoFrequencia/temp';
+import Renegociação from './components/gestãoFinanceira/Renegociação/Renegociação';
+import NotasFiscais from './components/gestãoFinanceira/NotasFiscais/NotasFiscais';
 
 const router = createBrowserRouter([
   {
@@ -56,8 +58,16 @@ const router = createBrowserRouter([
         element: <Cartão />,
       },
       {
-        path: 'gestaofinanceira/renego',
-        element: <Renego />,
+        path: '/gestaofinanceira/renegociacao',
+        element: <Renegociação />,
+      },
+      {
+        path: '/gestaofinanceira/notasfiscais',
+        element: <NotasFiscais />,
+      },
+      {
+        path: 'acessofrequencia',
+        element: <Temp />,
       },
     ],
   },

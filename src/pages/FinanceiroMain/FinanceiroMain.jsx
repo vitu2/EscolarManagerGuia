@@ -31,10 +31,17 @@ function FinanceiroMain() {
           Cartão
         </Link>
         <Link
-        className='box-container-financeiro'
-        to='/gestaofinanceira/renego'>
+          className="box-container-financeiro"
+          to="/gestaofinanceira/renegociacao"
+        >
           Renegociação
-          </Link>
+        </Link>
+        <Link
+          className="box-container-financeiro"
+          to="/gestaofinanceira/notasfiscais"
+        >
+          Notas Fiscais
+        </Link>
       </figure>
     </div>
   );

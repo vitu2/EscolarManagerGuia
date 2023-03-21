@@ -1,0 +1,7 @@
+{
+  "name": "teste-video-sdk",
+  "files": ["public", "src", "build"],
+  "build": {
+    "command": "npm run build"
+  }
+}
