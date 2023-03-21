@@ -1,7 +1,6 @@
 {
-  "name": "teste-video-sdk",
-  "files": ["public", "src", "build"],
-  "build": {
-    "command": "npm run build"
-  }
+  "name": "escolarmanagerguia",
+  "builds": [
+    { "src": "package.json", "use": "@vercel/node" }
+  ]
 }

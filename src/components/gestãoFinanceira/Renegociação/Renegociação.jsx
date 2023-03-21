@@ -29,7 +29,7 @@ function Renegociação() {
         indo em Gestão Financeira, Renegociação.
         Segue a imagem da tela abaixo:
         <figure>
-          <img src="../../../assets/img temp/EstornoRene.png" alt="" />
+          <img src="https://images2.imgbox.com/b8/7a/tDVZfRfm_o.png" alt="" />
           <figcaption></figcaption>
         </figure>
       </p>
