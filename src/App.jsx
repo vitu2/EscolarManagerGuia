@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import NavMenu from './components/NavMenu/NavMenu.jsx';
+import NavMenu from './pages/NavMenu/NavMenu';
 import './App.css';
 
 const App = () => (

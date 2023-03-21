@@ -5,14 +5,14 @@
 }
 
 .links-financeiro-container a {
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: space-around;
-  line-height: 80px;
-  width: 10vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  flex-basis: 22vw;
   text-align: center;
-  margin-top: 60px
+  margin-top: 60px;
+  line-height: 80px;
 }
+
 .box-container-financeiro {
   padding-top: 4px;
   border: 1px solid black;
