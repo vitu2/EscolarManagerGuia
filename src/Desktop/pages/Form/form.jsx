@@ -54,7 +54,7 @@ const SugestaoForm = (props) => {
   console.log(`Editor Content: ${editorContent}`);
 
   // Enviar sugestão por e-mail
-  fetch('https://back-endguiaescolarmanager.onrender.com/sugestao', {
+  fetch('https://escolarmanagerguia.vercel.app/sugestao', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
