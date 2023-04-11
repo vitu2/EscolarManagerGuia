@@ -1,0 +1,50 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 95vh;
+    width: 100vw;
+}
+
+.teste1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 90vh;
+    margin-top: 30px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.text-area{
+    width: 70vw;
+    height: 45vh;
+}
+
+.btn-style{
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.btn-form{
+    font-size: 1.4em;
+    background-color: rgb(12, 122, 77);
+    padding: 8px;
+    border-radius: 8px 4px;
+    text-decoration: none;
+    color: white;
+    transition: all .4s ease-in;
+}
+
+
+.btn-form:hover{
+    transition: all .4s ease-in;
+    background-color: rgb(40, 30, 95);
+}

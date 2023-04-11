@@ -3,18 +3,20 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import './index.css';
-import FinanceiroMain from './pages/FinanceiroMain/FinanceiroMain.jsx';
-import AcademicoMain from './pages/AcademicoMain/AcademicoMain.jsx';
-import ContasContabeis from './components/gestãoFinanceira/ContasContabeis/ContasContabeis.jsx';
-import Duplicatas from './components/gestãoFinanceira/Duplicatas/Duplicatas.jsx';
-import Finalidade from './components/gestãoFinanceira/Finalidade/Finalidade.jsx';
-import AlunoMatri from './components/gestãoAcademica/AlunoMatricula/AlunoMatri.jsx';
-import AvNota from './components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx';
-import Cartão from './components/gestãoFinanceira/Cartão/Cartão.jsx';
-import HistoricoCertificado from './components/gestãoAcademica/HistoricoCertificado/HistoricoCertificado';
-import Renegociação from './components/gestãoFinanceira/Renegociação/Renegociação';
-import NotasFiscais from './components/gestãoFinanceira/NotasFiscais/NotasFiscais';
-import AcessoFrequencia from './components/acessoFrequencia/AcessoFrequencia';
+import FinanceiroMain from './Desktop/pages/FinanceiroMain/FinanceiroMain';
+import AcademicoMain from './Desktop/pages/AcademicoMain/AcademicoMain.jsx';
+import ContasContabeis from './Desktop/components/gestãoFinanceira/ContasContabeis/ContasContabeis.jsx';
+import Duplicatas from './Desktop/components/gestãoFinanceira/Duplicatas/Duplicatas.jsx';
+import Finalidade from './Desktop/components/gestãoFinanceira/Finalidade/Finalidade.jsx';
+import AlunoMatri from './Desktop/components/gestãoAcademica/AlunoMatricula/AlunoMatri.jsx';
+import AvNota from './Desktop/components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx';
+import Cartão from './Desktop/components/gestãoFinanceira/Cartão/Cartão.jsx';
+import HistoricoCertificado from './Desktop/components/gestãoAcademica/HistoricoCertificado/HistoricoCertificado';
+import Temp from './Desktop/components/acessoFrequencia/temp';
+import Renegociação from './Desktop/components/gestãoFinanceira/Renegociação/Renegociação';
+import NotasFiscais from './Desktop/components/gestãoFinanceira/NotasFiscais/NotasFiscais';
+import SugestaoForm from './Desktop/pages/Form/form';
+import Vazio from './vazio';
 
 const router = createBrowserRouter([
   {
@@ -22,11 +24,19 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
+        path: 'sugestao',
+        element: <SugestaoForm />,
+      },
+      {
+        path:'desktop',
+        element: <Vazio/>
+      },
+      {
         path: 'gestaoacademica',
         element: <AcademicoMain />,
       },
       {
-        path: '/gestaoacademica/histocert',
+        path: 'gestaoacademica/histocert',
         element: <HistoricoCertificado />,
       },
       {
@@ -58,11 +68,11 @@ const router = createBrowserRouter([
         element: <Cartão />,
       },
       {
-        path: '/gestaofinanceira/renegociacao',
+        path: 'gestaofinanceira/renegociacao',
         element: <Renegociação />,
       },
       {
-        path: '/gestaofinanceira/notasfiscais',
+        path: 'gestaofinanceira/notasfiscais',
         element: <NotasFiscais />,
       },
       {

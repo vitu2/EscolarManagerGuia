@@ -1,0 +1,39 @@
+.a[href='/gestaoacademica'][aria-current='page'] {
+  display: none;
+}
+
+.container-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 100px;
+}
+
+.container-link.clicked{
+  justify-content: end;
+  height: 40vh;
+}
+
+.container-link-web{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a{
+  background-color: red;
+  padding: 8px;
+  font-size: 1.2em;
+  border-radius: 8px 4px;
+  text-decoration: none;
+  background-color: rgb(12, 122, 77);
+  color: white;
+  transition: all .4s ease-in;
+}
+
+.a:hover{
+  transition: all .4s ease-in;
+  background-color: rgb(40, 30, 95);
+}
