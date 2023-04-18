@@ -1,7 +1,7 @@
-import React, { useState, useRef } from "react";
-import JoditEditor from "jodit-react";
-import './FormModal.css'
-import { Link } from "react-router-dom";
+import React, { useState, useRef, useEffect} from 'react';
+import JoditEditor from 'jodit-react';
+import './FormModal.css';
+import { Link } from 'react-router-dom';
 
 const Editor = ({ onChange }) => {
   const editor = useRef(null);
@@ -11,8 +11,8 @@ const Editor = ({ onChange }) => {
     height: 400,
     width: 1120,
     uploader: {
-      url: "",
-      filesVariableName: "",
+      url: '',
+      filesVariableName: '',
       headers: {},
       prepareData: (formData) => {
         // add any additional data to the formData object here
@@ -44,35 +44,35 @@ const Editor = ({ onChange }) => {
 };
 
 const SugestaoForm = (props) => {
-  const [sugestao, setSugestao] = useState("");
-  const [editorContent, setEditorContent] = useState("");
-  const linkAtual = document.referrer;;
+  const [sugestao, setSugestao] = useState('');
+  const [editorContent, setEditorContent] = useState('');
+  const [linkAtual, setLinkAtual] = useState('');
 
   const handleSubmit = (event) => {
-  event.preventDefault();
-  console.log(`Link: ${linkAtual}`);
-  console.log(`Editor Content: ${editorContent}`);
+    event.preventDefault();
+    console.log(`Link da página anterior: ${linkAtual}`);
+    console.log(`Editor Content: ${editorContent}`);
 
-  // Enviar sugestão por e-mail
-  fetch('https://back-endguiaescolarmanager.onrender.com/sugestao', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({linkAtual, editorContent }),
-  })
-    .then((response) => {
-      if (response.ok) {
-        console.log('Sugestão enviada com sucesso!');
-        props.onClose();
-      } else {
-        console.log('Ocorreu um erro ao enviar a sugestão.');
-      }
+    // Enviar sugestão por e-mail
+    fetch('http://127.0.0.1:3000/sugestao', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ linkAtual, editorContent }),
     })
-    .catch((error) => {
-      console.log(error);
-    });
-};
+      .then((response) => {
+        if (response.ok) {
+          console.log('Sugestão enviada com sucesso!');
+          props.onClose();
+        } else {
+          console.log('Ocorreu um erro ao enviar a sugestão.');
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
 
   const handleChange = (event) => {
     setSugestao(event.target.value);
@@ -82,11 +82,18 @@ const SugestaoForm = (props) => {
     setEditorContent(newContent);
   };
 
+  console.log("document.referrer")
+  console.log(document.referrer)
+
+  useEffect(() => {
+    setLinkAtual(document.referrer);
+  }, []);
+
   return (
     <form onSubmit={handleSubmit} className="form-container">
       <label>
         <h2 className="h2-text-style">Sua sugestão:</h2>
-        <Editor onChange={handleEditorChange} className='teste'/>
+        <Editor onChange={handleEditorChange} className="teste" />
       </label>
       <br />
       <label>
@@ -98,10 +105,10 @@ const SugestaoForm = (props) => {
       <button className="btn-style" type="submit">
         Enviar
       </button>
-      <Link to='/'>
-      <button className="btn-style" type="button" onClick={props.onClose}>
-        Cancelar
-      </button>
+      <Link to="/">
+        <button className="btn-style" type="button" onClick={props.onClose}>
+          Cancelar
+        </button>
       </Link>
     </form>
   );
