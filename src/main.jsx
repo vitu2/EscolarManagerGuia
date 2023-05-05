@@ -77,7 +77,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'acessofrequencia',
-        element: <Temp />,
+        element: <AcessoFrequencia />,
       },
     ],
   },
