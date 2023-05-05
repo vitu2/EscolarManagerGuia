@@ -12,11 +12,11 @@ import AlunoMatri from './Desktop/components/gestãoAcademica/AlunoMatricula/Alu
 import AvNota from './Desktop/components/gestãoAcademica/AvaliaçãoBoletim/AvNota.jsx';
 import Cartão from './Desktop/components/gestãoFinanceira/Cartão/Cartão.jsx';
 import HistoricoCertificado from './Desktop/components/gestãoAcademica/HistoricoCertificado/HistoricoCertificado';
-import Temp from './Desktop/components/acessoFrequencia/temp';
 import Renegociação from './Desktop/components/gestãoFinanceira/Renegociação/Renegociação';
 import NotasFiscais from './Desktop/components/gestãoFinanceira/NotasFiscais/NotasFiscais';
 import SugestaoForm from './Desktop/pages/Form/form';
 import Vazio from './vazio';
+import AcessoFrequencia from './Desktop/components/acessoFrequencia/AcessoFrequencia';
 
 const router = createBrowserRouter([
   {
