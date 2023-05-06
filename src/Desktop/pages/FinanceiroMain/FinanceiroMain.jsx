@@ -8,37 +8,37 @@ function FinanceiroMain() {
       <figure className="links-financeiro-container">
         <Link
           className="box-container-financeiro"
-          to="/gestaofinanceira/contascontabeis"
+          to="contascontabeis"
         >
           Contas Contabeis
         </Link>
         <Link
           className="box-container-financeiro"
-          to="/gestaofinanceira/duplicatas"
+          to="duplicatas"
         >
           Duplicatas
         </Link>
         <Link
           className="box-container-financeiro"
-          to="/gestaofinanceira/finalidade"
+          to="finalidade"
         >
           Finalidade
         </Link>
         <Link
           className="box-container-financeiro"
-          to="/gestaofinanceira/cartao"
+          to="cartao"
         >
           Cartão
         </Link>
         <Link
           className="box-container-financeiro"
-          to="/gestaofinanceira/renegociacao"
+          to="renegociacao"
         >
           Renegociação
         </Link>
         <Link
           className="box-container-financeiro"
-          to="/gestaofinanceira/notasfiscais"
+          to="notasfiscais"
         >
           Notas Fiscais
         </Link>

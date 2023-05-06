@@ -1,10 +1,11 @@
 import React from 'react'
 
-function Vazio() {
+function Outros() {
   return (
     <div>
+      <h1>Outros</h1>
     </div>
   )
 }
 
-export default Vazio
+export default Outros

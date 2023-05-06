@@ -59,7 +59,7 @@ function AlunoMatri() {
         <figure>
           <EnlargeImage
             className="img-enlargable"
-            src="https://images2.imgbox.com/36/84/z1LcPgUj_o.png"
+            src="https://images2.imgbox.com/7d/2d/BGj1jq14_o.png"
           />
           <figcaption>
             Versão encurtada pode ser cliclando no primeiro icone do menu rapido
@@ -107,7 +107,7 @@ function AlunoMatri() {
       <section className="section-mat-final" data-aos="fade-left">
         <EnlargeImage
           className="img-enlargable"
-          src="https://images2.imgbox.com/34/86/9tMr787m_o.png"
+          src="https://images2.imgbox.com/cc/7b/599XqaDx_o.png"
         />
         <figure>
           <img src="" />

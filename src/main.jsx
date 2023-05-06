@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import MainHome from './MainHome';
 import './index.css';
 import FinanceiroMain from './Desktop/pages/FinanceiroMain/FinanceiroMain';
 import AcademicoMain from './Desktop/pages/AcademicoMain/AcademicoMain.jsx';
@@ -15,22 +15,27 @@ import HistoricoCertificado from './Desktop/components/gestãoAcademica/Historic
 import Renegociação from './Desktop/components/gestãoFinanceira/Renegociação/Renegociação';
 import NotasFiscais from './Desktop/components/gestãoFinanceira/NotasFiscais/NotasFiscais';
 import SugestaoForm from './Desktop/pages/Form/form';
-import Vazio from './vazio';
 import AcessoFrequencia from './Desktop/components/acessoFrequencia/AcessoFrequencia';
+import DesktopNavBar from './DesktopNavBar';
+import FichaAluno from './Desktop/components/gestãoAcademica/FichaAluno/FichaAluno';
+import Estoque from './Desktop/components/estoque/Estoque';
+import Nutre from './Desktop/components/nutre/Nutre';
+import Simulado from './Desktop/components/simulado/Simulado';
+import Publicacao from './Desktop/components/publicações/Publicacao';
+import PortalProfessor from './Desktop/components/portalProfessor/PortalProfessor';
+import Logins from './Desktop/components/logins/Logins';
+import Outros from './Desktop/components/outros/Outros';
+import SugestaoForm1 from './Desktop/pages/Form/Modal';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <MainHome />,
+  },
+  {
+    path: '/desktop',
+    element: <DesktopNavBar />,
     children: [
-      {
-        path: 'sugestao',
-        element: <SugestaoForm />,
-      },
-      {
-        path:'desktop',
-        element: <Vazio/>
-      },
       {
         path: 'gestaoacademica',
         element: <AcademicoMain />,
@@ -48,8 +53,16 @@ const router = createBrowserRouter([
         element: <AvNota />,
       },
       {
+        path: 'gestaoacademica/fichaaluno',
+        element: <FichaAluno />,
+      },
+      {
         path: 'gestaofinanceira',
         element: <FinanceiroMain />,
+      },
+      {
+        path: 'gestaofinanceira',
+        element: <AcessoFrequencia />,
       },
       {
         path: 'gestaofinanceira/contascontabeis',
@@ -79,8 +92,40 @@ const router = createBrowserRouter([
         path: 'acessofrequencia',
         element: <AcessoFrequencia />,
       },
+      {
+        path: 'estoque',
+        element: <Estoque />,
+      },
+      {
+        path: 'nutre',
+        element: <Nutre />,
+      },
+      {
+        path: 'simulado',
+        element: <Simulado />,
+      },
+      {
+        path: 'publicacao',
+        element: <Publicacao />,
+      },
+      {
+        path: 'portalprofessor',
+        element: <PortalProfessor />,
+      },
+      {
+        path: 'logins',
+        element: <Logins />,
+      },
+      {
+        path: 'outros',
+        element: <Outros />,
+      },
     ],
   },
+  {
+    path: 'sugestao',
+    element: <SugestaoForm/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

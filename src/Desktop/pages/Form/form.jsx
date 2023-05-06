@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect} from 'react';
 import JoditEditor from 'jodit-react';
 import './FormModal.css';
 import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const Editor = ({ onChange }) => {
   const editor = useRef(null);
@@ -46,20 +47,21 @@ const Editor = ({ onChange }) => {
 const SugestaoForm = (props) => {
   const [sugestao, setSugestao] = useState('');
   const [editorContent, setEditorContent] = useState('');
-  const [linkAtual, setLinkAtual] = useState('');
-
+  const [nome, setNome] = useState('')
+  const linkAtual = window.location.href
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log(`Link da página anterior: ${linkAtual}`);
     console.log(`Editor Content: ${editorContent}`);
-
+    
     // Enviar sugestão por e-mail
-    fetch('http://127.0.0.1:3000/sugestao', {
+    fetch('https://back-endguiaescolarmanager.onrender.com/sugestao', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ linkAtual, editorContent }),
+      body: JSON.stringify({ linkAtual, editorContent, nome }),
     })
       .then((response) => {
         if (response.ok) {
@@ -74,6 +76,10 @@ const SugestaoForm = (props) => {
       });
   };
 
+  const handleNome = (event) => {
+    setNome(event.target.value);
+  }
+
   const handleChange = (event) => {
     setSugestao(event.target.value);
   };
@@ -81,13 +87,6 @@ const SugestaoForm = (props) => {
   const handleEditorChange = (newContent) => {
     setEditorContent(newContent);
   };
-
-  console.log("document.referrer")
-  console.log(document.referrer)
-
-  useEffect(() => {
-    setLinkAtual(document.referrer);
-  }, []);
 
   return (
     <form onSubmit={handleSubmit} className="form-container">
@@ -100,6 +99,10 @@ const SugestaoForm = (props) => {
         Link da página atual:
         <input type="text-link-style" value={linkAtual} readOnly />
         {/* <FontAwesomeIcon icon={faEnvelope} /> */}
+      </label>
+      <label>
+        Nome:
+        <input type="text" value={nome} onChange={handleNome}/>
       </label>
       <br />
       <button className="btn-style" type="submit">

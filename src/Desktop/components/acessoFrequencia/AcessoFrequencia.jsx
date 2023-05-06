@@ -10,11 +10,11 @@ function AcessoFrequencia() {
         com a entrada do aluno na escola por meio da catraca esse acesso podera ser usado para lançar a frequencia no diario
         tanto si o horario for por dia ou disciplina.</p>
         <figure>
-          <img src="../../../assets/img temp/MonitorDeAssociação(automatico).png" alt="Monitor de acesso automatico" />
+          <img src="https://images2.imgbox.com/25/3c/Ni2bo2dj_o.png" alt="Monitor de acesso automatico" />
           <figcaption>Nesta tela podemos adicionar o horario de entrada e saida Nota: quando ouver <strong>APENAS UMA ENTRADA OU SAIDA</strong> e caso o aluno esqueça de passar o cartão, biometria e etc.
 		  então será atribuido para ele a entra e saida que foi previamente controlada.</figcaption>
         </figure>
-		<figure>"../../../assets/img temp/horariosSaidaCatraca.png"</figure>
+		<figure><img src="https://images2.imgbox.com/24/07/7gAECEfO_o.png" /></figure>
 		<figcaption>Aqui nesta imagem podemos ver uma configuração automatica de entrada e saida (comumente usada para momentos de grande fluxo de entrada ou de saida, outra forma que pode ser usada é para garantir a presença do aluno.)</figcaption>
         <p>As outas opões mostradas serão para o controle, por exemplo a opção de <strong>não permitir acesso de alunos inadimplentes</strong> e assim por diante</p>
 	</div>

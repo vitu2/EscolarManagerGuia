@@ -8,7 +8,7 @@ function AvNota() {
         Aqui temos um fluxo para podermos ter as notas dentro do boletim e tudo
         começa la nas configurações de boletim, como vemos na imagem a baixo
       </p>
-      <img src="https://images2.imgbox.com/40/78/MPo63rcr_o.png" />
+      <img src="https://images2.imgbox.com/4a/ba/Y3PPowjP_o.png" />
       <p>
         Quando clicamos na opção de Cadastro de Manutenção de Boletim somos
         redirecionados para essa tela

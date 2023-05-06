@@ -14,7 +14,7 @@ function Renegociação() {
       </figure>
       <p>Logo nesta imagem abaixo, podemos ver que temos um outra tela de renegociação em gestão financeira</p>
       <figure>
-        <img src="https://images2.imgbox.com/a5/a1/LTMxgTbH_o.png" alt="" />
+        <img src="https://images2.imgbox.com/b2/36/AICCYVXm_o.png" alt="" />
       </figure>
       <p>Nesta tela de renegociação, fazemos a pesquisa pelas duplicatas, ou da forma mais facil podemos pesquisar pelo
         aluno e carregar as duplicatas, clicamos em todos para selecionar todas as duplicatas, mas onde está a diferença?
