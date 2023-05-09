@@ -1,11 +1,20 @@
-import React from 'react'
-
-function Temp() {
-  return (
-    <div>
-      <h1>Acesso e frequencia</h1>
-    </div>
-  )
+.paragrafo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 2rem;
+  align-items: center;
 }
 
-export default Temp
+.paragrafo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.paragrafo figcaption {
+  grid-column: 1 / -1;
+}
+
+.padding-text-figcaption{
+  width: 42.3vw;
+}

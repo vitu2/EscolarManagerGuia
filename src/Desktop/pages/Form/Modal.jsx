@@ -16,12 +16,13 @@ function SugestaoForm1() {
   };
 
   const modalStyle = {
-    maxWidth: '95%', // ou '600px' por exemplo
+    maxWidth: '95%',
+    maxHeight: '95%'
   };
 
   return (
     <div className="modal-container">
-      <button onClick={openModal}>Enviar sugestão</button>
+      <button onClick={openModal} className='btn-style'>Enviar sugestão</button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

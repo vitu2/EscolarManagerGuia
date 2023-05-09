@@ -2,12 +2,12 @@
     background-color: whitesmoke;
 }
 
-section:nth-of-type(even) {
-    background-color: whitesmoke; /* cor branca */
+.AlunoMatri-container section:nth-of-type(even) {
+    background-color: whitesmoke;
     padding: 30px;
   }
   
-  section:nth-of-type(odd) {
+  .AlunoMatri-container section:nth-of-type(odd) {
     background-color: #023535;
     color: white;
     padding: 30px;

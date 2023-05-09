@@ -90,24 +90,25 @@ const SugestaoForm = (props) => {
 
   return (
     <form onSubmit={handleSubmit} className="form-container">
+      <br />
+      <label className='input-name-container'>
+        Nome: <input type="text" value={nome} onChange={handleNome} id='nome-iput'/>
+      </label>
+      <br />
       <label>
         <h2 className="h2-text-style">Sua sugestão:</h2>
         <Editor onChange={handleEditorChange} className="teste" />
       </label>
       <br />
       <label>
-        Link da página atual:
-        <input type="text-link-style" value={linkAtual} readOnly />
+        Link da página que sera alterada: <input type="text-link-style" value={linkAtual} readOnly />
         {/* <FontAwesomeIcon icon={faEnvelope} /> */}
-      </label>
-      <label>
-        Nome:
-        <input type="text" value={nome} onChange={handleNome}/>
       </label>
       <br />
       <button className="btn-style" type="submit">
         Enviar
       </button>
+      <br />
       <Link to="/">
         <button className="btn-style" type="button" onClick={props.onClose}>
           Cancelar

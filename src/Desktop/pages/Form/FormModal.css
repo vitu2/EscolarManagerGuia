@@ -25,12 +25,40 @@
     height: 45vh;
 }
 
-.btn-style{
-    border: none;
+.modal-container{
+    display: inline-block;
     margin-top: 20px;
-    font-size: 20px;
+    text-align: center;
+    width: 100vw;
     padding: 4px;
+}
+
+.btn-style{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
+}
+
+input{
+    width: 23rem;
+}
+
+#nome-iput{
+    width: 10rem;
+    padding: 3px;
+}
+
+.input-name-container{
+    background-color: rgb(19, 99, 59);
+    width: 20vw;
+    padding: 8px;
+    margin-right: 73.5%;
+    color: white;
+    border-radius: 10px;
 }
 
 .btn-form{
