@@ -7,9 +7,9 @@ import SugestaoForm1 from './Desktop/pages/Form/Modal';
 const DesktopNavBar = () => {
   return (
     <div className="container-app">
-       <NavMenu />
+      <NavMenu />
       <Outlet />
-      <SugestaoForm1/>
+      <SugestaoForm1 />
     </div>
   );
 };

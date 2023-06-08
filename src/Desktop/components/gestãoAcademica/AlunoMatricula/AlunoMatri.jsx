@@ -45,15 +45,16 @@ function AlunoMatri() {
   return (
     <div className="AlunoMatri-container">
       <div className="title-container">
-        <h1>Aluno e Matricula:Introdução</h1>
-        <h2>Fluxo de Matricula Aluno</h2>
+        <h1>Aluno e Matrícula: Introdução</h1>
+        <h2>Fluxo de Matrícula do Aluno</h2>
       </div>
       <section className="section-aluno" data-aos="fade-left">
         <p className="text-space-right">
-          Para podermos iniciar o financeiro do aluno prescisamos passar por
-          algumas etapas antes, e é aqui que esse fluxo começa , na tela abaixo
-          vemos formas de matricular um novo aluno, clicamos am gestão academica
-          seguimos para aluno, ficha do aluno e novo.
+          Para iniciarmos o processo financeiro do aluno, precisamos passar por
+          algumas etapas antes, e é aqui que esse fluxo começa: na tela abaixo,
+          vemos formas de matricular um novo aluno. Clicamos em "Gestão
+          Acadêmica", seguimos para "Aluno", "Ficha do Aluno" e, em seguida,
+          clicamos em "Novo".
         </p>
 
         <figure>
@@ -62,8 +63,9 @@ function AlunoMatri() {
             src="https://images2.imgbox.com/7d/2d/BGj1jq14_o.png"
           />
           <figcaption>
-            Versão encurtada pode ser cliclando no primeiro icone do menu rapido
-            abrira direto a ficha do aluno, e depois clicar em novo.
+            Uma versão simplificada é clicar no primeiro ícone do menu rápido, o
+            que abrirá diretamente a ficha do aluno. Em seguida, basta clicar em
+            "Novo".
           </figcaption>
         </figure>
       </section>
@@ -76,18 +78,17 @@ function AlunoMatri() {
           />
         </figure>
         <p className="text-space-left">
-          <strong>Tela de cadastro:</strong> Aqui nesta tela podemos colocar os
-          dados dos alunos que vai ser preenchidos.
-          <br />
-          Nesta tela podemos colocar os dados dos alunos que vai ser
-          preenchidos, podemos observar alguns textos em azul (localizado ao
-          lado esquerdo), são informações complementares podendo configurar para
-          si tornarem obrigatorias, mas os campos que são de fato obrigatorios
-          estão com um * vermelho, como podemos ver na parte padrão (a primeira
-          parte do cadastro que é mostrada quando abrimos), nesta parte com as
-          informações obrigatorias preenchidas ja podemos gravar (salvar),
-          depois de gravar, vamos direto para a pagina de matricula onde podemos
-          matricular o aluno e tambem gerar o financeiro dele.
+          {/* <strong>Tela de cadastro:</strong>
+          <br /> */}
+          Nesta tela, podemos preencher os dados dos alunos. Podemos observar
+          alguns textos em azul ao lado esquerdo, que são informações
+          complementares e podem ser configuradas como obrigatórias. No entanto,
+          os campos que são realmente obrigatórios estão marcados com um *
+          vermelho. Na parte padrão do cadastro (a primeira parte mostrada ao
+          abrir), se todas as informações obrigatórias estiverem preenchidas,
+          podemos salvar os dados. Após salvar, seremos direcionados para a
+          página de matrícula, onde podemos matricular o aluno e gerar seu
+          financeiro.
         </p>
       </section>
 

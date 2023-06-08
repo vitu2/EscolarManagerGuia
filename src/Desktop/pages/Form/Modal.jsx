@@ -16,8 +16,18 @@ function SugestaoForm1() {
   };
 
   const modalStyle = {
-    maxWidth: '95%',
-    maxHeight: '95%'
+    content: {
+      maxWidth: '100%',
+      maxHeight: '100%',
+      backgroundColor: 'white',
+      border: 'none',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+    overlay: {
+      backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    },
   };
 
   return (
@@ -27,7 +37,7 @@ function SugestaoForm1() {
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         contentLabel="Sugestão Form"
-        style={{ content: modalStyle }}
+        style={modalStyle}
       >
         <SugestaoForm onClose={closeModal} />
       </Modal>
