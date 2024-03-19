@@ -58,25 +58,13 @@ input{
     align-items: center;
 }
 
-.btn-form{
-    font-size: 1.4em;
-    background-color: rgb(12, 122, 77);
-    padding: 8px;
-    border-radius: 8px 4px;
-    text-decoration: none;
-    color: white;
-    transition: all .4s ease-in;
-}
-
-
-.btn-form:hover{
-    transition: all .4s ease-in;
-    background-color: rgb(40, 30, 95);
-}
-
 .btn-container{
     width: 20vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.btn-close{
+    
 }

@@ -39,22 +39,25 @@ const router = createBrowserRouter([
       {
         path: 'gestaoacademica',
         element: <AcademicoMain />,
-      },
-      {
-        path: 'gestaoacademica/histocert',
-        element: <HistoricoCertificado />,
-      },
-      {
-        path: 'gestaoacademica/alunomatri',
-        element: <AlunoMatri />,
-      },
-      {
-        path: 'gestaoacademica/avboletim',
-        element: <AvNota />,
-      },
-      {
-        path: 'gestaoacademica/fichaaluno',
-        element: <FichaAluno />,
+        children: [
+          {
+            path: 'histocert',
+            element: <HistoricoCertificado />,
+          },
+          
+          {
+            path: 'alunomatri',
+            element: <AlunoMatri />,
+          },
+          {
+            path: 'avboletim',
+            element: <AvNota />,
+          },
+          {
+            path: 'fichaaluno',
+            element: <FichaAluno />,
+          },
+        ]
       },
       {
         path: 'gestaofinanceira',
