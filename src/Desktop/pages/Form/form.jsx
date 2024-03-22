@@ -1,5 +1,4 @@
-import React, { useState, forwardRef, useRef, useLayoutEffect, useEffect } from 'react';
-import ReactQuill from 'react-quill';
+import React, {forwardRef, useRef, useLayoutEffect, useEffect } from 'react';
 import 'react-quill/dist/quill.snow.css';
 import Quill from 'quill';
 
